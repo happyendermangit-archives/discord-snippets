@@ -25,7 +25,7 @@ USERNAME:{
         title:"Example!",
         author:Authors.USERNAME,
         shortDesc:"Short description here.",
-        code:"the message here, minify it as a string that has "
+        code:"the message here, minify it as a string that has \n as new lines"
 },
 ]
 ```
