@@ -69,7 +69,7 @@ export default function HomePage(){
             <div className="modal-box" >
                 <h3 className="font-bold text-lg">Looking to create a snippet?</h3>
                 <p className="py-4">
-                 You can read our guide in this <a className="text-sky-400 font-bold underline hover:text-sky-300" href="https://github.com">document</a>
+                 You can read our guide in this <a className="text-sky-400 font-bold underline hover:text-sky-300" href="https://github.com/happyendermangit/discord-snippets/blob/main/guide.md">document</a>
                 </p>
                 <div className="modal-action">
                 <form method="dialog">
