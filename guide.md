@@ -25,6 +25,7 @@ USERNAME:{
 {
         title:"Example!",
         id:"numbers-then-id-here", 
+        tags:["📌 Tag 1","⚠️ Tag 2","🚀 Tag 3"], // you can either keep it empty or add a tag as a string
         author:Authors.USERNAME,
         shortDesc:"Short description here.",
 },
