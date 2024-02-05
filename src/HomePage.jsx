@@ -92,6 +92,9 @@ export default function HomePage(){
                                 <a className="font-bold underline" href={`https://discord.com/users/${snippet.author.id}`}><p id="author" className="px-3 py-3">{snippet.author.name}</p></a>
                             </div>
                             <p>{snippet.shortDesc}</p>
+                            <div class="card-actions justify-start">
+                                {snippet.tags.map((e,key_)=><div key={key_} class="badge badge-outline">{e}</div> )}
+                            </div>
                             <div className="card-actions justify-end">
                             <button className="btn btn-primary" onClick={ () => { location.href = `/snippets/${snippet.id}` } }>View</button>
                             </div>
