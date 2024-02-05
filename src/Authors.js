@@ -7,7 +7,7 @@ const Authors = {
     HAPPY_ENDERMAN:{
         name:"Happy enderman",
         id:"1083437693347827764",
-        pfp:"HAPPY_ENDERMAN.webp"
+        pfp:"HAPPY_ENDERMAN.png"
     },
     ELLIE:{
         name:"Elysia.dev",
