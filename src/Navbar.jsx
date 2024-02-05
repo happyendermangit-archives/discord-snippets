@@ -2,11 +2,14 @@ export default function Navbar(){
     return (
         <div className="navbar bg-base-100 w-full z-20 top-0 start-0 fixed">
             <div className="flex-1">
-                <a className="btn btn-ghost text-xl" href="/">Discord snippets</a>
+                <a className="btn btn-ghost text-xl text-[#5865F2]" href="/">Discord snippets</a>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
-                <li><a href="https://discord.gg/wumpus-central-1087801778365546556">Discord server</a></li>
+                <li><a href="https://discord.gg/gGe2j6hgQh">Wumpus central (FEATURED)</a></li>
+                <li><a href="https://discord.gg/wumpus-central-1087801778365546556">Support server</a></li>
+                <li><a href="https://github.com/happyendermangit/discord-snippets">Github</a></li>
+                <li><a href="https://ko-fi.com/happyenderman">KO-FI</a></li>
                 <li>
                     <details>
                     <summary>
