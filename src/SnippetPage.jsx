@@ -39,7 +39,7 @@ export default function SnippetPage(){
             <div>
                 <div className="avatar p-1 left-0 flex items-center">
                     <div className="w-10 h-10 rounded-full overflow-hidden">
-                            <img className="w-full h-full object-cover" src={filteredSnippets[0].author.pfp} alt="Avatar" />
+                            <img className="w-full h-full object-cover" src={`https://raw.githubusercontent.com/happyendermangit/discord-snippets/main/avatars/${filteredSnippets[0].author.pfp}`} alt="Avatar" />
                     </div>
                     <p id="author" className="px-3 py-3">{filteredSnippets[0].author.name}</p>
                 </div>
