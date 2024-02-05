@@ -11,12 +11,13 @@
 USERNAME:{
     name:"Your name",
     id:"<discord id>",
-    pfp:"discord pfp link",
+    pfp:"pfp file name",
 }
 ]
 ```
 
-3. Now you should add your snippet in ./src/Snippets.js:
+3. Add your pfp file in ./avatars
+4. Now you should add your snippet in ./src/Snippets.js:
 
 ```js
 },
@@ -30,6 +31,6 @@ USERNAME:{
 ]
 ```
 
-4. Create the markdown file named like this: ID.md where ID is the id you choosed, in ./snippets.and then put the content in it 
-5. Post the pull request
-6. Wait for review!
+5. Create the markdown file named like this: ID.md where ID is the id you choosed, in ./snippets.and then put the content in it 
+6. Post the pull request
+7. Wait for review!

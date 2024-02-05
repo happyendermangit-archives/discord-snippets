@@ -87,7 +87,7 @@ export default function HomePage(){
                             <h2 className="card-title">{snippet.title}</h2>
                             <div className="avatar">
                                 <div className="w-10 h-10 rounded-full overflow-hidden">
-                                    <img className="w-full h-full object-cover" src={snippet.author.pfp} alt="Avatar" />
+                                    <img className="w-full h-full object-cover" src={`https://raw.githubusercontent.com/happyendermangit/discord-snippets/main/avatars/${snippet.author.pfp}`} alt="Avatar" />
                                 </div>
                                 <a className="font-bold underline" href={`https://discord.com/users/${snippet.author.id}`}><p id="author" className="px-3 py-3">{snippet.author.name}</p></a>
                             </div>
