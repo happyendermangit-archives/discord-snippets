@@ -82,20 +82,20 @@ export default function HomePage(){
             <div className="snippets">
                 { 
                 snippets.map((snippet,key)=>(
-                    <div className="card w-30 bg-base-100 shadow-xl shadow-lg snippet" key={key}>
-                    <div className="card-body text-start">
-                        <h2 className="card-title">{snippet.title}</h2>
-                        <div className="avatar">
-                            <div className="w-10 h-10 rounded-full overflow-hidden">
-                                <img className="w-full h-full object-cover" src={snippet.author.pfp} alt="Avatar" />
+                    <div className="card bg-base-100 shadow-xl shadow-lg snippet" key={key}>
+                        <div className="card-body text-start">
+                            <h2 className="card-title">{snippet.title}</h2>
+                            <div className="avatar">
+                                <div className="w-10 h-10 rounded-full overflow-hidden">
+                                    <img className="w-full h-full object-cover" src={snippet.author.pfp} alt="Avatar" />
+                                </div>
+                                <a className="font-bold underline" href={`https://discord.com/users/${snippet.author.id}`}><p id="author" className="px-3 py-3">{snippet.author.name}</p></a>
                             </div>
-                            <a className="font-bold underline" href={`https://discord.com/users/${snippet.author.id}`}><p id="author" className="px-3 py-3">{snippet.author.name}</p></a>
-                        </div>
-                        <p>{snippet.shortDesc}</p>
-                        <div className="card-actions justify-end">
-                        <button className="btn btn-primary" onClick={ () => { location.href = `/snippets/${snippet.id}` } }>View</button>
-                        </div>
-                        </div>
+                            <p>{snippet.shortDesc}</p>
+                            <div className="card-actions justify-end">
+                            <button className="btn btn-primary" onClick={ () => { location.href = `/snippets/${snippet.id}` } }>View</button>
+                            </div>
+                            </div>
                     </div>
                 )) 
                 }

@@ -1,11 +1,13 @@
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from "rehype-raw";
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { atomDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import Snippets from "./Snippets"
 import CopyButton from "./CopyButton"
 import NotFound from './NotFound'
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { atomDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import { useState } from 'react';
+
 
 export default function SnippetPage(){
     const Snippetid = location.pathname.split('/snippets/')[1]
@@ -14,10 +16,13 @@ export default function SnippetPage(){
         return (<NotFound></NotFound>)
     }
 
+    const [code, setCode] = useState("")
+
+
     fetch(`https://raw.githubusercontent.com/happyendermangit/discord-snippets/main/snippets/${filteredSnippets[0].id}.md`)
     .then(e=>e.text())
     .then(res=>{
-        filteredSnippets[0].code = res    
+        setCode(res)
     })
 
     return (
@@ -58,7 +63,7 @@ export default function SnippetPage(){
                         },
                         }}
                     >
-                        {filteredSnippets[0].code}
+                        {code}
                 </Markdown>
             </div>
         </div>
