@@ -13,6 +13,13 @@ export default function SnippetPage(){
     if (filteredSnippets.length === 0){
         return (<NotFound></NotFound>)
     }
+
+    fetch(`https://raw.githubusercontent.com/happyendermangit/discord-snippets/main/snippets/${filteredSnippets[0].id}.md`)
+    .then(e=>e.text())
+    .then(res=>{
+        filteredSnippets[0].code = res    
+    })
+
     return (
         <div className="pb-400">
             <h1 className="break-words w-[1000px]">{ filteredSnippets[0].shortDesc }  </h1><br />
