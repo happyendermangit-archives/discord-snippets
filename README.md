@@ -7,7 +7,7 @@
  
 ## Website preview:
 
-- The website link is this: https://snippets.happyenderman.com
+- The website link is this: https://dcsnippets.lol
 
 ## How to post a snippet?
 
