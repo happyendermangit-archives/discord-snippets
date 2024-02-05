@@ -11,5 +11,25 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+    
+    function styleHeaders() {
+      
+      const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+      
+      const fontSizes = ['text-5xl', 'text-4xl', 'text-3xl', 'text-2xl', 'text-xl', 'text-lg'];
+
+      
+      headers.forEach((header, index) => {
+        header.classList.add('font-weight-bold'); 
+        header.classList.add(fontSizes[index]); 
+      });
+    }
+
+    
+    window.onload = () => { styleHeaders(); styleHeaders(); styleHeaders(); styleHeaders()};
+ 
+    </script>
   </body>
 </html>
