@@ -13,6 +13,11 @@ const Authors = {
         name:"Elysia.dev",
         id:"721746046543331449",
         pfp:"ELLIE.webp"
+    },
+    BACHHUMMUS:{
+        name:"Bach Hummus",
+        id:"624091967625625610",
+        pfp:"BACHHUMMUS.png"
     }
 }
 

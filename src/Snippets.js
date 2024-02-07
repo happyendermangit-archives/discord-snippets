@@ -25,6 +25,14 @@ const Snippets = [
         date:"Monday, Feb, 5,2024",
         author:Authors.ELLIE
     },
+    {
+        title:"vidtoClip",
+        shortDesc:"Send video file as clip",
+        tags:["🎈 Fun"],
+        id:"vid-to-clip",
+        date:"Wednesday, Feb, 7,2024",
+        author:Authors.BACHHUMMUS
+    }
     
 ]
 export default Snippets
