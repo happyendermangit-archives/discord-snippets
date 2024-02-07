@@ -9,10 +9,10 @@ export default function Navbar(){
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
-                <li><a href="https://discord.gg/wumpus-central-1087801778365546556">Wumpus central (FEATURED)</a></li>
-                <li><a href="https://discord.gg/REBDYXg2U8">Discord insiders (FEATURED)</a></li>
-                <li><a href="https://discord.gg/gGe2j6hgQh">Support server</a></li>
-                <li><a href="https://github.com/happyendermangit/discord-snippets">Github</a></li>
+                <li><a href="https://discord.gg/wumpus-central-1087801778365546556">Wumpus Central (FEATURED)</a></li>
+                <li><a href="https://discord.gg/REBDYXg2U8">Discord Insiders (FEATURED)</a></li>
+                <li><a href="https://discord.gg/gGe2j6hgQh">Support Server</a></li>
+                <li><a href="https://github.com/happyendermangit/discord-snippets">GitHub</a></li>
                 <li><a href="https://ko-fi.com/happyenderman">KO-FI</a></li>
                 <li>
                     <details>

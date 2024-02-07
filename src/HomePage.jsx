@@ -61,7 +61,7 @@ export default function HomePage(){
                 </select>
                 <div className="indicator">
                     <span className="indicator-item badge badge-secondary">Beta!</span> 
-                    <button className="btn join-item" onClick={ FilterByInput }>Search.</button>
+                    <button className="btn join-item" onClick={ FilterByInput }>Search</button>
                 </div>
             </div>
             <button className="btn btn-primary ml-10" onClick={ () => { Infomodal.current.showModal() } }>Create snippet</button>
