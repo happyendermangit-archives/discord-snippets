@@ -2,7 +2,10 @@ export default function Navbar(){
     return (
         <div className="navbar bg-base-100 w-full z-20 top-0 start-0 fixed">
             <div className="flex-1">
-                <a className="btn btn-ghost text-xl text-[#5865F2]" href="/">Discord snippets</a>
+                
+                <a className="btn h-full btn-ghost text-xl text-[#5865F2]" href="/"> <img width="50px" style={{
+                    borderRadius:"5px"
+                }} src="https://github.com/happyendermangit/discord-snippets/blob/main/avatars/DISCORD_SNIPPETS.png?raw=true" alt="" /> Discord snippets</a>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
