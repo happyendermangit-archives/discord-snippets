@@ -15,6 +15,6 @@
 
 ## Credits:
 
-![Happy enderman](https://github.com/happyendermangit) — Coder & Owner
-![FoUnDeRR](https://github.com/FoUnDeRR) — Logo designer
+- [Happy enderman](https://github.com/happyendermangit) — Coder & Owner
+- [FoUnDeRR](https://github.com/FoUnDeRR) — Logo designer
 
