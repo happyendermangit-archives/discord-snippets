@@ -18,6 +18,11 @@ const Authors = {
         name:"Bach Hummus",
         id:"624091967625625610",
         pfp:"BACHHUMMUS.png"
+    },
+    DISCORD_SNIPPETS_OFFICIAL:{
+        name:"Discord snippets (Official)",
+        id:"1083437693347827764",
+        pfp:"DISCORD_SNIPPETS.png"
     }
 }
 

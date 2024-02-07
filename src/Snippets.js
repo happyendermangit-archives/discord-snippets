@@ -7,7 +7,7 @@ const Snippets = [
         tags:["✨ System"],
         id:"pls-add-snippets",
         date:"Monday, Feb, 5,2024",
-        author:Authors.HAPPY_ENDERMAN,
+        author:Authors.DISCORD_SNIPPETS_OFFICIAL,
     },
     {
         title:"FindByProps + _mods",
@@ -15,7 +15,7 @@ const Snippets = [
         tags:["📌 Pinned","⚙️ Core","⚠️ Essentiels"],
         id:"find-by-props-_mods",
         date:"Monday, Feb, 5,2024",
-        author:Authors.NOBODY
+        author:Authors.DISCORD_SNIPPETS_OFFICIAL
     },
     {
         title:"Getallbadges",
