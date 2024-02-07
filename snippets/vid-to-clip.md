@@ -1,6 +1,6 @@
 ## Requirement
 
-- findbyProps
+- [findbyProps](https://dcsnippets.lol/snippets/find-by-props-_mods)
 - Has clip metadata in that file
 
 You can add metadata by using this snippet:
