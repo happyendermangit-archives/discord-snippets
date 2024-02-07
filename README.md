@@ -13,3 +13,8 @@
 
 - Check [Our guide](./guide.md)
 
+## Credits:
+
+![Happy enderman](https://github.com/happyendermangit) — Coder
+![FoUnDeRR](https://github.com/FoUnDeRR) — Logo designer
+
