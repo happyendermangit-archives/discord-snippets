@@ -32,7 +32,15 @@ const Snippets = [
         id:"vid-to-clip",
         date:"Wednesday, Feb, 7,2024",
         author:Authors.BACHHUMMUS
-    }
+    },
+    {
+        title:"Switch to Staging build",
+        shortDesc:"Best snippet",
+        tags:["🚀 Utility"],
+        id:"staging-build",
+        date:"Sunday, Feb, 11,2024",
+        author:Authors.DISCORD_SNIPPETS_OFFICIAL
+    },
     
 ]
 export default Snippets
