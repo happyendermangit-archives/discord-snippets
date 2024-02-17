@@ -41,6 +41,14 @@ const Snippets = [
         date:"Sunday, Feb, 11,2024",
         author:Authors.DISCORD_SNIPPETS_OFFICIAL
     },
+        {
+        title:"Lurk any guild",
+        shortDesc:"View a guild",
+        tags:["🚀 Utility"],
+        id:"view-guilds",
+        date:"Saturday, Feb, 17,2024",
+        author:Authors.FOUNDER
+    },
     
 ]
 export default Snippets
