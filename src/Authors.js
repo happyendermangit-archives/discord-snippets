@@ -23,6 +23,11 @@ const Authors = {
         name:"Discord snippets (Official)",
         id:"1083437693347827764",
         pfp:"DISCORD_SNIPPETS.png"
+    },
+    FOUNDER:{
+        name:"Founder",
+        id:"965629616012267570",
+        pfp:"FOUNDER.png"
     }
 }
 
