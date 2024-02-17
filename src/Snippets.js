@@ -42,8 +42,8 @@ const Snippets = [
         author:Authors.DISCORD_SNIPPETS_OFFICIAL
     },
         {
-        title:"Lurk any guild",
-        shortDesc:"View a guild",
+        title:"Lurk on any guild",
+        shortDesc:"View any guilds for the rest of your session without joining",
         tags:["🚀 Utility"],
         id:"view-guilds",
         date:"Saturday, Feb, 17,2024",
